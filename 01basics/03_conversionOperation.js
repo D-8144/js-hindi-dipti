@@ -45,6 +45,42 @@ let isLoggedIn = ""
 // string conversion
 let someNumber = 33 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
+
+let value = 55
+let negativeValue = -value
+// console.log(negativeValue);
+
+
+
+
+
+// OPERATIONS
+
+let str1 = "dipti"
+let str2 = "abhisek"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+
+// The + operator in JavaScript does two things:
+// numeric addition if both operands are numbers,
+// string concatenation if either operand is a string (then the other is converted to a string).
+// The + operator is left-to-right associative, so expressions are evaluated from left to right.
+
+// console.log("1" + 2);        // "12"
+// console.log(1 + "2");        // "12"
+// console.log("1" + 2 + 2);    // "122"
+// console.log(1 + 2 + "2");    // "32"
+
+// console.log(+true); - o/p -1
+// console.log(true+); - o/p showing error
+// console.log(+""); - o/p - 0
+
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
